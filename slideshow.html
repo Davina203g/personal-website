@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="main-container">
+    <!-- Navbar Starts Here -->
+    <header>
+
+        <div class="logo">
+            <h1><a href="./slideshow.html">DK Creations</a></h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="./slideshow.html">Home</a></li>
+                <li><a href="./portfolio.html">Porfolio</a></li>
+                <li><a href=".contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <style>
+      .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-size: 100% 100%;
+        transform: translate(-50%, -50%);
+        background-image: url(./images/flowergirl.jpg);
+        width:100%;
+        height:589px;
+        animation: slide 20s infinite linear;
+        margin-top:2cm;
+    
+      }
+     @keyframes slide{
+      10%{
+        background-image: url(./images/1.jpg);
+      } 
+      20%{
+        background-image: url(./images/2.jpg);
+      }
+      30%{
+        background-image: url(./images/22.jpg);
+      }
+      40%{
+        background-image: url(./images/4.jpg);
+      }
+      50%{
+        background-image: url(./images/background\ \(2\).jpg);
+      }
+      60%{
+        background-image: url(./images/dog.jpg);
+      }
+      70%{
+        background-image: url(./images/ph.jpg);
+      }
+      80%{
+        background-image: url(./images/wedding.jpg);
+      }
+     }
+     </style>
+     <div class="container"> 
+      <div class="button">
+        <a href="#about">Get Started</a>
+      <a href="./portfolio/portfolio.html">Portfolio</a>
+    </div>
+    </div>
+</div>
+<div id="about">
+<div class="title">
+    <h1>About us</h1>
+    <div class="line"></div>
+</div>
+<div class="box1">
+<div class="pic">
+    <img src="../images/ph.jpg" alt="">
+
+</div>
+<div class="para">
+  <h1>DK Creations</h1>
+  <p>For a couple of years now I have been on an otherworldly adventure that has caused a move in my spirit. I began to feel that as my point of view on life developed, my motivation for taking photos didn’t impact me any longer. It as of late hit me that my explanations behind adoring photography could advance inside me also. take pictures trying to stop time.
+  </p>
+</div>
+</div>
+</div>
+<footer>
+<p>&copy; 2023 by DK Creations</p>
+</footer>
+</body>
+</html>
